@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F85762AF1ED6935D96971D8 /* Pods_Love__U_Mart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFC1B7E7B0EB3BCB6FD28AD /* Pods_Love__U_Mart.framework */; };
 		2C6CF4382B965A06003CB6F9 /* Love__U_MartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6CF4372B965A06003CB6F9 /* Love__U_MartApp.swift */; };
 		2C6CF43A2B965A06003CB6F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6CF4392B965A06003CB6F9 /* ContentView.swift */; };
 		2C6CF43C2B965A08003CB6F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C6CF43B2B965A08003CB6F9 /* Assets.xcassets */; };
 		2C6CF43F2B965A08003CB6F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C6CF43E2B965A08003CB6F9 /* Preview Assets.xcassets */; };
+		2C8F73132BA109E100532FA2 /* Buy in Frameworks */ = {isa = PBXBuildFile; productRef = 2C8F73122BA109E100532FA2 /* Buy */; };
+		2C8F73152BA109E100532FA2 /* Pay in Frameworks */ = {isa = PBXBuildFile; productRef = 2C8F73142BA109E100532FA2 /* Pay */; };
+		2C8F73182BA25C7D00532FA2 /* product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8F73172BA25C7D00532FA2 /* product.swift */; };
+		2C8F731A2BA25C8F00532FA2 /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8F73192BA25C8F00532FA2 /* user.swift */; };
+		2C8F731C2BA25D1500532FA2 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8F731B2BA25D1500532FA2 /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2AFC1B7E7B0EB3BCB6FD28AD /* Pods_Love__U_Mart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Love__U_Mart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C6CF4342B965A06003CB6F9 /* Love, U Mart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Love, U Mart.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C6CF4372B965A06003CB6F9 /* Love__U_MartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Love__U_MartApp.swift; sourceTree = "<group>"; };
 		2C6CF4392B965A06003CB6F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2C6CF43B2B965A08003CB6F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C6CF43E2B965A08003CB6F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2C8F73172BA25C7D00532FA2 /* product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = product.swift; sourceTree = "<group>"; };
+		2C8F73192BA25C8F00532FA2 /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
+		2C8F731B2BA25D1500532FA2 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		E258F19C788DBC0BB6C55B76 /* Pods-Love, U Mart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Love, U Mart.debug.xcconfig"; path = "Target Support Files/Pods-Love, U Mart/Pods-Love, U Mart.debug.xcconfig"; sourceTree = "<group>"; };
+		F78AA5392DF72EF3C92AFB37 /* Pods-Love, U Mart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Love, U Mart.release.xcconfig"; path = "Target Support Files/Pods-Love, U Mart/Pods-Love, U Mart.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +38,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C8F73132BA109E100532FA2 /* Buy in Frameworks */,
+				2C8F73152BA109E100532FA2 /* Pay in Frameworks */,
+				0F85762AF1ED6935D96971D8 /* Pods_Love__U_Mart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +52,8 @@
 			children = (
 				2C6CF4362B965A06003CB6F9 /* Love, U Mart */,
 				2C6CF4352B965A06003CB6F9 /* Products */,
+				D1F86E4D02B731D8240735BC /* Pods */,
+				4455C412E1084006FBA1B1D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +68,8 @@
 		2C6CF4362B965A06003CB6F9 /* Love, U Mart */ = {
 			isa = PBXGroup;
 			children = (
+				2C8F731D2BA25D8F00532FA2 /* Views */,
+				2C8F73162BA25C6700532FA2 /* models */,
 				2C6CF4372B965A06003CB6F9 /* Love__U_MartApp.swift */,
 				2C6CF4392B965A06003CB6F9 /* ContentView.swift */,
 				2C6CF43B2B965A08003CB6F9 /* Assets.xcassets */,
@@ -67,6 +86,40 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		2C8F73162BA25C6700532FA2 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				2C8F73172BA25C7D00532FA2 /* product.swift */,
+				2C8F73192BA25C8F00532FA2 /* user.swift */,
+				2C8F731B2BA25D1500532FA2 /* Post.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		2C8F731D2BA25D8F00532FA2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4455C412E1084006FBA1B1D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AFC1B7E7B0EB3BCB6FD28AD /* Pods_Love__U_Mart.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1F86E4D02B731D8240735BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E258F19C788DBC0BB6C55B76 /* Pods-Love, U Mart.debug.xcconfig */,
+				F78AA5392DF72EF3C92AFB37 /* Pods-Love, U Mart.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,15 +127,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C6CF4422B965A08003CB6F9 /* Build configuration list for PBXNativeTarget "Love, U Mart" */;
 			buildPhases = (
+				CB2417658E1AAA07E57A9D57 /* [CP] Check Pods Manifest.lock */,
 				2C6CF4302B965A06003CB6F9 /* Sources */,
 				2C6CF4312B965A06003CB6F9 /* Frameworks */,
 				2C6CF4322B965A06003CB6F9 /* Resources */,
+				35408F4E349C65B247B410CD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Love, U Mart";
+			packageProductDependencies = (
+				2C8F73122BA109E100532FA2 /* Buy */,
+				2C8F73142BA109E100532FA2 /* Pay */,
+			);
 			productName = "Love, U Mart";
 			productReference = 2C6CF4342B965A06003CB6F9 /* Love, U Mart.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +170,9 @@
 				Base,
 			);
 			mainGroup = 2C6CF42B2B965A06003CB6F9;
+			packageReferences = (
+				2C8F73112BA109E100532FA2 /* XCRemoteSwiftPackageReference "mobile-buy-sdk-ios" */,
+			);
 			productRefGroup = 2C6CF4352B965A06003CB6F9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -132,13 +194,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		35408F4E349C65B247B410CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Love, U Mart/Pods-Love, U Mart-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Love, U Mart/Pods-Love, U Mart-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Love, U Mart/Pods-Love, U Mart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB2417658E1AAA07E57A9D57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Love, U Mart-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2C6CF4302B965A06003CB6F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C8F731A2BA25C8F00532FA2 /* user.swift in Sources */,
+				2C8F73182BA25C7D00532FA2 /* product.swift in Sources */,
 				2C6CF43A2B965A06003CB6F9 /* ContentView.swift in Sources */,
 				2C6CF4382B965A06003CB6F9 /* Love__U_MartApp.swift in Sources */,
+				2C8F731C2BA25D1500532FA2 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +373,7 @@
 		};
 		2C6CF4432B965A08003CB6F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E258F19C788DBC0BB6C55B76 /* Pods-Love, U Mart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +403,7 @@
 		};
 		2C6CF4442B965A08003CB6F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F78AA5392DF72EF3C92AFB37 /* Pods-Love, U Mart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -344,6 +453,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2C8F73112BA109E100532FA2 /* XCRemoteSwiftPackageReference "mobile-buy-sdk-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Shopify/mobile-buy-sdk-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2C8F73122BA109E100532FA2 /* Buy */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C8F73112BA109E100532FA2 /* XCRemoteSwiftPackageReference "mobile-buy-sdk-ios" */;
+			productName = Buy;
+		};
+		2C8F73142BA109E100532FA2 /* Pay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C8F73112BA109E100532FA2 /* XCRemoteSwiftPackageReference "mobile-buy-sdk-ios" */;
+			productName = Pay;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2C6CF42C2B965A06003CB6F9 /* Project object */;
 }
